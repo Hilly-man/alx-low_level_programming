@@ -4,18 +4,18 @@
 #include <stdlib.h>
 
 /**
- *stuct list_t - lined list
+ *stuct list_s - lined list
  *@next: points to next node
  *@str: string
  *@len: lenth for string
  *Description: singly linked list
  */
 
-typedef struct list_t
+typedef struct list_s
 {
-	struct list_t *next;
 	char *str;
 	unsigned int len;
+	struct list_s *next;
 }list_t;
 
 size_t print_list(const list_t *h);
