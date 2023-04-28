@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- *stuct list_s - lined list
+ *@stuct list_s - lined list
  *@next: points to next node
  *@str: string
  *@len: lenth for string
