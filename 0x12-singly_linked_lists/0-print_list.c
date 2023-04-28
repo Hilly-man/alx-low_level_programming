@@ -6,6 +6,7 @@
  * @h: pointer to the list_t list to print
  *
  * Return: the number of nodes printed
+ * Description: struct list_s
  */
 size_t print_list(const list_t *h)
 {
