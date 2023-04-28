@@ -4,11 +4,12 @@
 #include <stdlib.h>
 
 /**
- *@stuct list_s - lined list
+ *stuct list_s - lined list
  *@next: points to next node
  *@str: string
  *@len: lenth for string
  *Description: singly linked list
+ *Description: struct list_s
  */
 
 typedef struct list_s
